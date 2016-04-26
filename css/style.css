@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+}
+/*--------------------------------------------------------------
+Structure
+--------------------------------------------------------------*/
+.header-area {
+	/*background: #404040;*/
+	background: #febf12;
+    color: white;
+	float: left;
+}
+.full {
+	/*automatic width*/
+	width: 100%;
+}
+.main-page {
+	width: 1024px;
+	margin: 0 auto;
+}
+h1.site-title{
+	font-family: Futura,'Trebuchet MS',Arial, sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color: red;
+	letter-spacing: 2px;
+}
+.content-area {
+	/*margin-top: 0;*/
+	float: left;
+	background: #00884f;
+    color: white;
+}
+.footer-area{
+	float: left;
+	/*position: absolute;*/
+	background: #d10803;
+}
+
+/*--------------------------------------------------------------
+Fonts
+--------------------------------------------------------------*/
+.sub-heading{
+	text-align: center;
+}
+#copyright {
+	position: absolute;
+	
+	text-align: center;
+	margin: 0 auto;
+	/*right: 10px;*/
+	width: 1024px;
+	background: #03d12a;
+}
+/*--------------------------------------------------------------
+Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	/*width: 50%;*/
+	float: left;
+	/*overflow: hidden;*/
+}
+
+.main-navigation ul {
+	list-style-type: none;
+	margin-top: 0;
+	/*padding-left: 0;*/
+}
+
+.main-navigation ul li {
+	float: left;
+}
+.main-navigation ul li a{
+	font-family: Futura,'Trebuchet MS',Arial, sans-serif;
+	text-decoration: none;
+	color: #f07146;
+	display: block;
+	padding: .5em;
+	margin: .25em;
+	color: red;
+}
+.main-navigation ul li a:hover{
+	font-family: Futura,'Trebuchet MS',Arial, sans-serif;
+	text-decoration: none;
+	color: #f07146;
+	display: block;
+	padding: .5em;
+	margin: .25em;
+	color: white;
+}
