@@ -36,7 +36,18 @@ h1.site-title{
 	/*position: absolute;*/
 	background: #d10803;
 }
-
+#about {
+	width: 800px;
+	float: left;
+	margin-right: 10px;
+}
+#picture {
+	width: 184px;
+	float: left;
+}
+#skills {
+	clear: float;
+}
 /*--------------------------------------------------------------
 Fonts
 --------------------------------------------------------------*/
@@ -57,8 +68,8 @@ Menus
 --------------------------------------------------------------*/
 .main-navigation {
 	/*width: 50%;*/
-	float: left;
 	/*overflow: hidden;*/
+	float: left;
 }
 
 .main-navigation ul {
